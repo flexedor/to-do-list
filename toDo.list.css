@@ -1,0 +1,23 @@
+ul li.checked {
+    background: #880000;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li:hover {
+    background: #ddd;
+}
+header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+button{
+
+}
+
+body{
+    border-radius: 15px;
+    margin-left: 30%; /* Отступ слева */
+    width: 40%;
+}
