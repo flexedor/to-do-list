@@ -6,7 +6,15 @@ ul li.checked {
 ul li:hover {
     background: #ddd;
 }
+ul {
+    list-style-type: none;
+border: red;
+    border-width:2px ;
+
+
+}
 header {
+    font-family: "Trebuchet MS", "Lucida Sans";
     background-color: #f44336;
     padding: 30px 40px;
     color: white;
@@ -20,4 +28,36 @@ body{
     border-radius: 15px;
     margin-left: 30%; /* Отступ слева */
     width: 40%;
+}
+
+span{
+background-color: #f44336;
+border: 2px #f44336;
+border-radius: 3px;
+}
+li {
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #0000ff;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+    -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+button{
+   background-color: #0000ff;
+    font-family: "Trebuchet MS", "Lucida Sans";
+    border-radius: 5px;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+    -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    color: white;
 }
